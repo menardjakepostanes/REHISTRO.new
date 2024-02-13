@@ -16,7 +16,7 @@ public class Activity1Demo {
      */
     public static void main(String[] args) {
 
-        int n = 5+11;
+        float n = 100/2;
         System.out.println(n);
 
     }
