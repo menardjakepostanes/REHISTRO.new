@@ -15,7 +15,10 @@ public class Activity1Demo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World");
+
+        int n = 5+6;
+        System.out.println(n);
+
     }
     
 }
