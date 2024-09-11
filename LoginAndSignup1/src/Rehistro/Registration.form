@@ -33,7 +33,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="10" width="620" height="120"/>
+          <AbsoluteConstraints x="0" y="0" width="620" height="120"/>
         </Constraint>
       </Constraints>
 
@@ -43,39 +43,24 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
-                  <Component id="pictureBox1" min="-2" pref="100" max="-2" attributes="0"/>
-                  <EmptySpace pref="269" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="209" max="-2" attributes="0"/>
+                  <Component id="pictureBox2" min="-2" pref="100" max="-2" attributes="0"/>
+                  <EmptySpace pref="259" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="14" max="32767" attributes="0"/>
-                  <Component id="pictureBox1" min="-2" pref="100" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="94" max="32767" attributes="0"/>
               </Group>
+              <Component id="pictureBox2" alignment="0" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Container class="loginandsignup1.wews.PictureBox" name="pictureBox1">
-          <Properties>
-            <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loginandsignup1/icons/UM LOGO.jpg"/>
-            </Property>
-          </Properties>
-
-          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
-            <Property name="useNullLayout" type="boolean" value="true"/>
-          </Layout>
-        </Container>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -93,6 +78,17 @@
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MouseClicked"/>
           </Events>
         </Component>
+        <Container class="PictureBox.PictureBox" name="pictureBox2">
+          <Properties>
+            <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/loginandsignup1/icons/UM LOGO.jpg"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+        </Container>
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="jPanel2">
@@ -159,8 +155,8 @@
                   <Component id="aNIMATION2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                   <Component id="aNIMATION3" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="aNIMATION4" min="-2" pref="57" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="aNIMATION4" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -298,22 +294,22 @@
             <Property name="text" type="java.lang.String" value="APPLY NOW!"/>
           </Properties>
         </Component>
-        <Component class="loginandsignup1.ANIMATION" name="aNIMATION1">
+        <Component class="Rehistro.ANIMATION" name="aNIMATION1">
           <Properties>
             <Property name="hint" type="java.lang.String" value="Email&#xa;"/>
           </Properties>
         </Component>
-        <Component class="loginandsignup1.ANIMATION" name="aNIMATION2">
+        <Component class="Rehistro.ANIMATION" name="aNIMATION2">
           <Properties>
             <Property name="hint" type="java.lang.String" value="First Name"/>
           </Properties>
         </Component>
-        <Component class="loginandsignup1.ANIMATION" name="aNIMATION3">
+        <Component class="Rehistro.ANIMATION" name="aNIMATION3">
           <Properties>
             <Property name="hint" type="java.lang.String" value="Last Name"/>
           </Properties>
         </Component>
-        <Component class="loginandsignup1.ANIMATION" name="aNIMATION4">
+        <Component class="Rehistro.ANIMATION" name="aNIMATION4">
           <Properties>
             <Property name="hint" type="java.lang.String" value="ID No."/>
           </Properties>

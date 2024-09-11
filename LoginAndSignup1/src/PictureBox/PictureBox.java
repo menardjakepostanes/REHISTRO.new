@@ -1,5 +1,5 @@
 
-package loginandsignup1.wews;
+package PictureBox;
 
 import java.awt.Dimension;
 import java.awt.Graphics;

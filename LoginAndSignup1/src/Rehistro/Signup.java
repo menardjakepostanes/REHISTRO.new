@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package loginandsignup1;
+package Rehistro;
 
 import com.formdev.flatlaf.FlatLightLaf;
 
@@ -31,18 +31,17 @@ public class Signup extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
-        pictureBox1 = new loginandsignup1.wews.PictureBox();
-        jLabel15 = new javax.swing.JLabel();
-        pictureBox2 = new loginandsignup1.wews.PictureBox();
         jLabel11 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        pictureBox2 = new PictureBox.PictureBox();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
-        aNIMATION1 = new loginandsignup1.ANIMATION();
-        aNIMATION2 = new loginandsignup1.ANIMATION();
-        aNIMATION3 = new loginandsignup1.ANIMATION();
-        aNIMATION4 = new loginandsignup1.ANIMATION();
+        aNIMATION1 = new Rehistro.ANIMATION();
+        aNIMATION2 = new Rehistro.ANIMATION();
+        aNIMATION3 = new Rehistro.ANIMATION();
+        aNIMATION4 = new Rehistro.ANIMATION();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(800, 500));
@@ -54,21 +53,17 @@ public class Signup extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(102, 0, 0));
 
-        pictureBox1.setBackground(new java.awt.Color(102, 0, 0));
-        pictureBox1.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/Image-Photoroom.png"))); // NOI18N
-
-        jLabel15.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel15.setFont(new java.awt.Font("BankGothic Md BT", 0, 36)); // NOI18N
-        jLabel15.setText("REHISTRO");
-        pictureBox1.add(jLabel15);
-        jLabel15.setBounds(10, 190, 215, 39);
-        pictureBox1.add(pictureBox2);
-        pictureBox2.setBounds(60, 10, 0, 0);
-
         jLabel11.setBackground(new java.awt.Color(204, 204, 204));
         jLabel11.setFont(new java.awt.Font("BankGothic Lt BT", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(153, 153, 153));
         jLabel11.setText("Champions Are Made Here!");
+
+        jLabel15.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel15.setFont(new java.awt.Font("BankGothic Md BT", 0, 36)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setText("REHISTRO");
+
+        pictureBox2.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/Image-Photoroom.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -80,16 +75,22 @@ public class Signup extends javax.swing.JFrame {
                         .addGap(58, 58, 58)
                         .addComponent(jLabel11))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(78, 78, 78)
-                        .addComponent(pictureBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(83, 83, 83)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel15)
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addGap(23, 23, 23)
+                                .addComponent(pictureBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addContainerGap(62, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(66, 66, 66)
-                .addComponent(pictureBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(99, 99, 99)
+                .addComponent(pictureBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel15)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(170, Short.MAX_VALUE))
         );
@@ -240,10 +241,10 @@ public class Signup extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private loginandsignup1.ANIMATION aNIMATION1;
-    private loginandsignup1.ANIMATION aNIMATION2;
-    private loginandsignup1.ANIMATION aNIMATION3;
-    private loginandsignup1.ANIMATION aNIMATION4;
+    private Rehistro.ANIMATION aNIMATION1;
+    private Rehistro.ANIMATION aNIMATION2;
+    private Rehistro.ANIMATION aNIMATION3;
+    private Rehistro.ANIMATION aNIMATION4;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
@@ -253,7 +254,6 @@ public class Signup extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private loginandsignup1.wews.PictureBox pictureBox1;
-    private loginandsignup1.wews.PictureBox pictureBox2;
+    private PictureBox.PictureBox pictureBox2;
     // End of variables declaration//GEN-END:variables
 }

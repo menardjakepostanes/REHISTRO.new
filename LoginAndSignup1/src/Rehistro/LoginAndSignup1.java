@@ -1,5 +1,5 @@
 
-package loginandsignup1;
+package Rehistro;
 
 import com.formdev.flatlaf.FlatLightLaf;
 

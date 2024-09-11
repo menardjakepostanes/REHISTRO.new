@@ -1,8 +1,5 @@
 
-package loginandsignup1;
-
-
-  
+package Rehistro;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
@@ -11,7 +8,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Insets;
 import java.awt.RenderingHints;
-import javax.swing.JTextField;
+import javax.swing.JPasswordField;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
@@ -22,7 +19,7 @@ import org.jdesktop.animation.timing.TimingTargetAdapter;
  *
  * @author Khianne
  */
-public class ANIMATION extends JTextField {
+public class Password extends JPasswordField {
 
     public String getHint() {
         return hint;
@@ -38,7 +35,7 @@ public class ANIMATION extends JTextField {
     private float animate;
     private boolean show = true;
 
-    public ANIMATION() {
+    public Password() {
         setOpaque(false);
         setBorder(new EmptyBorder(9, 1, 9, 1));
         setBackground(new Color(0, 0, 0, 0));
@@ -68,7 +65,7 @@ public class ANIMATION extends JTextField {
         getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
-                if (!getText().equals("")) {
+                if (getPassword().length != 0) {
                     if (show) {
                         if (animator.isRunning() == false) {
                             stop();

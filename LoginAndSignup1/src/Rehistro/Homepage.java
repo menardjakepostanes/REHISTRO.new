@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package loginandsignup1;
+package Rehistro;
 
 import com.formdev.flatlaf.FlatLightLaf;
 
@@ -29,22 +29,12 @@ public class Homepage extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        pictureBox1 = new loginandsignup1.wews.PictureBox();
         jLabel1 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
-        pictureBox2 = new loginandsignup1.wews.PictureBox();
-        pictureBox9 = new loginandsignup1.wews.PictureBox();
+        pictureBox14 = new PictureBox.PictureBox();
+        pictureBox1 = new PictureBox.PictureBox();
         jPanel3 = new javax.swing.JPanel();
-        pictureBox3 = new loginandsignup1.wews.PictureBox();
         jLabel6 = new javax.swing.JLabel();
-        pictureBox10 = new loginandsignup1.wews.PictureBox();
-        pictureBox11 = new loginandsignup1.wews.PictureBox();
-        pictureBox18 = new loginandsignup1.wews.PictureBox();
-        pictureBox19 = new loginandsignup1.wews.PictureBox();
-        pictureBox20 = new loginandsignup1.wews.PictureBox();
-        pictureBox21 = new loginandsignup1.wews.PictureBox();
-        pictureBox22 = new loginandsignup1.wews.PictureBox();
-        pictureBox23 = new loginandsignup1.wews.PictureBox();
         jPanel2 = new javax.swing.JPanel();
         jButton7 = new javax.swing.JButton();
         VOLLEYBALL = new javax.swing.JButton();
@@ -53,14 +43,6 @@ public class Homepage extends javax.swing.JFrame {
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
-        pictureBox12 = new loginandsignup1.wews.PictureBox();
-        pictureBox13 = new loginandsignup1.wews.PictureBox();
-        pictureBox24 = new loginandsignup1.wews.PictureBox();
-        pictureBox25 = new loginandsignup1.wews.PictureBox();
-        pictureBox26 = new loginandsignup1.wews.PictureBox();
-        pictureBox27 = new loginandsignup1.wews.PictureBox();
-        pictureBox28 = new loginandsignup1.wews.PictureBox();
-        pictureBox29 = new loginandsignup1.wews.PictureBox();
         jPanel5 = new javax.swing.JPanel();
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
@@ -68,23 +50,26 @@ public class Homepage extends javax.swing.JFrame {
         jButton16 = new javax.swing.JButton();
         jButton17 = new javax.swing.JButton();
         jButton18 = new javax.swing.JButton();
+        pictureBox2 = new PictureBox.PictureBox();
+        pictureBox3 = new PictureBox.PictureBox();
+        pictureBox4 = new PictureBox.PictureBox();
+        pictureBox5 = new PictureBox.PictureBox();
+        pictureBox6 = new PictureBox.PictureBox();
         jPanel4 = new javax.swing.JPanel();
-        pictureBox4 = new loginandsignup1.wews.PictureBox();
-        pictureBox6 = new loginandsignup1.wews.PictureBox();
-        pictureBox5 = new loginandsignup1.wews.PictureBox();
-        pictureBox7 = new loginandsignup1.wews.PictureBox();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        pictureBox8 = new loginandsignup1.wews.PictureBox();
+        pictureBox7 = new PictureBox.PictureBox();
+        pictureBox8 = new PictureBox.PictureBox();
+        pictureBox9 = new PictureBox.PictureBox();
+        pictureBox10 = new PictureBox.PictureBox();
+        pictureBox11 = new PictureBox.PictureBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(210, 141, 13));
-
-        pictureBox1.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -98,91 +83,46 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
-        pictureBox2.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/Image-Photoroom.png"))); // NOI18N
+        pictureBox14.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/Image-Photoroom.png"))); // NOI18N
 
-        pictureBox9.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/fUNNY FACE.jpeg"))); // NOI18N
+        pictureBox1.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(24, 24, 24)
-                .addComponent(pictureBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(19, 19, 19)
+                .addComponent(pictureBox14, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(pictureBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(17, 17, 17)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)
-                    .addComponent(pictureBox9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(pictureBox2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(pictureBox9, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(39, 39, 39)
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)))
+                .addGap(39, 39, 39)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jButton4)
                 .addGap(10, 10, 10))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addComponent(pictureBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pictureBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pictureBox14, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18))
         );
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setPreferredSize(new java.awt.Dimension(1220, 794));
 
-        pictureBox3.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/um.jpg"))); // NOI18N
-
         jLabel6.setFont(new java.awt.Font("Lucida Fax", 1, 18)); // NOI18N
         jLabel6.setText("SPORTS");
-
-        pictureBox10.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-
-        pictureBox11.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-        pictureBox10.add(pictureBox11);
-        pictureBox11.setBounds(0, 0, 0, 0);
-
-        pictureBox18.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-
-        pictureBox19.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-        pictureBox18.add(pictureBox19);
-        pictureBox19.setBounds(0, 0, 0, 0);
-
-        pictureBox20.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-
-        pictureBox21.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-        pictureBox20.add(pictureBox21);
-        pictureBox21.setBounds(0, 0, 0, 0);
-
-        pictureBox22.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-
-        pictureBox23.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-        pictureBox22.add(pictureBox23);
-        pictureBox23.setBounds(0, 0, 0, 0);
-
-        pictureBox20.add(pictureBox22);
-        pictureBox22.setBounds(0, 0, 0, 0);
-
-        pictureBox18.add(pictureBox20);
-        pictureBox20.setBounds(0, 0, 0, 0);
-
-        pictureBox10.add(pictureBox18);
-        pictureBox18.setBounds(0, 0, 0, 0);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -276,39 +216,6 @@ public class Homepage extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Lucida Fax", 1, 18)); // NOI18N
         jLabel2.setText("CLUBS");
 
-        pictureBox12.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-
-        pictureBox13.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-        pictureBox12.add(pictureBox13);
-        pictureBox13.setBounds(0, 0, 0, 0);
-
-        pictureBox24.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-
-        pictureBox25.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-        pictureBox24.add(pictureBox25);
-        pictureBox25.setBounds(0, 0, 0, 0);
-
-        pictureBox26.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-
-        pictureBox27.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-        pictureBox26.add(pictureBox27);
-        pictureBox27.setBounds(0, 0, 0, 0);
-
-        pictureBox28.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-
-        pictureBox29.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
-        pictureBox28.add(pictureBox29);
-        pictureBox29.setBounds(0, 0, 0, 0);
-
-        pictureBox26.add(pictureBox28);
-        pictureBox28.setBounds(0, 0, 0, 0);
-
-        pictureBox24.add(pictureBox26);
-        pictureBox26.setBounds(0, 0, 0, 0);
-
-        pictureBox12.add(pictureBox24);
-        pictureBox24.setBounds(0, 0, 0, 0);
-
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
 
         jButton13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -383,82 +290,101 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
+        pictureBox2.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/um.jpg"))); // NOI18N
+
+        pictureBox3.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
+
+        pictureBox4.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
+        pictureBox3.add(pictureBox4);
+        pictureBox4.setBounds(0, 0, 0, 0);
+
+        pictureBox5.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
+
+        pictureBox6.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/UM LOGO.jpg"))); // NOI18N
+        pictureBox5.add(pictureBox6);
+        pictureBox6.setBounds(0, 0, 0, 0);
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(pictureBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 1312, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(21, 21, 21)
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(pictureBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel6)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pictureBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(jLabel2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pictureBox12, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabel2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(pictureBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(pictureBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 1330, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(pictureBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 470, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(53, 53, 53)
+                .addComponent(pictureBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 499, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(jPanel3Layout.createSequentialGroup()
-                            .addGap(44, 44, 44)
-                            .addComponent(jLabel6)
-                            .addGap(34, 34, 34))
-                        .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(pictureBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 60, Short.MAX_VALUE)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(34, 34, 34)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(pictureBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(78, 78, 78)
+                        .addComponent(jLabel6)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(pictureBox12, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(50, 50, 50))
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(pictureBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(51, 51, 51))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel2)
-                        .addGap(85, 85, 85))))
+                        .addGap(84, 84, 84))))
         );
 
         jPanel4.setBackground(new java.awt.Color(90, 0, 9));
-
-        pictureBox4.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/announcements1.png"))); // NOI18N
-
-        pictureBox6.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/notiffinal.png"))); // NOI18N
-
-        pictureBox5.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/update-removebg-preview.png"))); // NOI18N
-
-        pictureBox7.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/pngtree-vector-logout-icon-png-image_4221908-removebg-preview.png"))); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Lucida Fax", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("ANNOUNCEMENTS");
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel3MouseClicked(evt);
+            }
+        });
 
         jLabel4.setFont(new java.awt.Font("Lucida Fax", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("NOTIFICATIONS");
         jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel4MouseClicked(evt);
+            }
+        });
 
         jLabel5.setFont(new java.awt.Font("Lucida Fax", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("UPDATE");
         jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel5MouseClicked(evt);
+            }
+        });
 
         jLabel7.setFont(new java.awt.Font("Lucida Fax", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
@@ -475,79 +401,88 @@ public class Homepage extends javax.swing.JFrame {
         jLabel8.setText("LOG OUT");
         jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        pictureBox8.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/SLOTTTT.png"))); // NOI18N
+        pictureBox7.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/announcements1.png"))); // NOI18N
+
+        pictureBox8.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/notiffinal.png"))); // NOI18N
+
+        pictureBox9.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/update-removebg-preview.png"))); // NOI18N
+
+        pictureBox10.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/SLOTTTT.png"))); // NOI18N
+
+        pictureBox11.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/pngtree-vector-logout-icon-png-image_4221908-removebg-preview.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(32, 32, 32)
+                .addContainerGap(29, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(pictureBox8, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel7))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(pictureBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel5))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addContainerGap(24, Short.MAX_VALUE)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(pictureBox7, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel8))
+                        .addComponent(pictureBox7, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel3)
+                        .addGap(18, 18, 18))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(pictureBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(pictureBox6, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel3)))
-                .addGap(18, 18, 18))
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addComponent(pictureBox8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel4))
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addComponent(pictureBox11, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel8))
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel4Layout.createSequentialGroup()
+                                        .addComponent(pictureBox9, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jLabel5))
+                                    .addGroup(jPanel4Layout.createSequentialGroup()
+                                        .addComponent(pictureBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jLabel7)))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(103, 103, 103)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(pictureBox4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(114, 114, 114)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(pictureBox6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(112, 112, 112)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(pictureBox5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 131, Short.MAX_VALUE)
+                .addGap(80, 80, 80)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(pictureBox8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(111, 111, 111)
+                    .addComponent(pictureBox7, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(120, 120, 120)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(pictureBox8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(15, 15, 15)
-                        .addComponent(jLabel8)
-                        .addGap(13, 13, 13))
-                    .addComponent(pictureBox7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(106, 106, 106))
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pictureBox9, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(124, 124, 124)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(pictureBox10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(122, 122, 122)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(pictureBox11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(75, 75, 75))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 1318, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 1318, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -558,8 +493,8 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 835, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 1, Short.MAX_VALUE)))
+                        .addGap(0, 1, Short.MAX_VALUE)
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 835, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(6, 6, 6))
         );
 
@@ -650,6 +585,29 @@ Registration   RegistrationFrame = new Registration();
          this.dispose();
     }//GEN-LAST:event_jButton15ActionPerformed
 
+    private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
+    Registration   RegistrationFrame = new Registration(); 
+          RegistrationFrame.setVisible(true);
+      RegistrationFrame.pack();
+         RegistrationFrame.setLocationRelativeTo(null);
+         this.dispose();
+    }//GEN-LAST:event_jLabel5MouseClicked
+
+    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
+      Announcements  AnnouncementsFrame = new Announcements(); 
+        AnnouncementsFrame.setVisible(true);
+     AnnouncementsFrame.pack();
+         AnnouncementsFrame.setLocationRelativeTo(null);
+         this.dispose();
+    }//GEN-LAST:event_jLabel3MouseClicked
+
+    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+       Notifications  NotificationsFrame = new  Notifications(); 
+        NotificationsFrame.setVisible(true);
+      NotificationsFrame.pack(); NotificationsFrame.setLocationRelativeTo(null);
+         this.dispose();
+    }//GEN-LAST:event_jLabel4MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -689,30 +647,17 @@ Registration   RegistrationFrame = new Registration();
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private loginandsignup1.wews.PictureBox pictureBox1;
-    private loginandsignup1.wews.PictureBox pictureBox10;
-    private loginandsignup1.wews.PictureBox pictureBox11;
-    private loginandsignup1.wews.PictureBox pictureBox12;
-    private loginandsignup1.wews.PictureBox pictureBox13;
-    private loginandsignup1.wews.PictureBox pictureBox18;
-    private loginandsignup1.wews.PictureBox pictureBox19;
-    private loginandsignup1.wews.PictureBox pictureBox2;
-    private loginandsignup1.wews.PictureBox pictureBox20;
-    private loginandsignup1.wews.PictureBox pictureBox21;
-    private loginandsignup1.wews.PictureBox pictureBox22;
-    private loginandsignup1.wews.PictureBox pictureBox23;
-    private loginandsignup1.wews.PictureBox pictureBox24;
-    private loginandsignup1.wews.PictureBox pictureBox25;
-    private loginandsignup1.wews.PictureBox pictureBox26;
-    private loginandsignup1.wews.PictureBox pictureBox27;
-    private loginandsignup1.wews.PictureBox pictureBox28;
-    private loginandsignup1.wews.PictureBox pictureBox29;
-    private loginandsignup1.wews.PictureBox pictureBox3;
-    private loginandsignup1.wews.PictureBox pictureBox4;
-    private loginandsignup1.wews.PictureBox pictureBox5;
-    private loginandsignup1.wews.PictureBox pictureBox6;
-    private loginandsignup1.wews.PictureBox pictureBox7;
-    private loginandsignup1.wews.PictureBox pictureBox8;
-    private loginandsignup1.wews.PictureBox pictureBox9;
+    private PictureBox.PictureBox pictureBox1;
+    private PictureBox.PictureBox pictureBox10;
+    private PictureBox.PictureBox pictureBox11;
+    private PictureBox.PictureBox pictureBox14;
+    private PictureBox.PictureBox pictureBox2;
+    private PictureBox.PictureBox pictureBox3;
+    private PictureBox.PictureBox pictureBox4;
+    private PictureBox.PictureBox pictureBox5;
+    private PictureBox.PictureBox pictureBox6;
+    private PictureBox.PictureBox pictureBox7;
+    private PictureBox.PictureBox pictureBox8;
+    private PictureBox.PictureBox pictureBox9;
     // End of variables declaration//GEN-END:variables
 }

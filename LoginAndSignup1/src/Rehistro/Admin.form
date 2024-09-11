@@ -27,7 +27,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Component id="jPanel1" max="32767" attributes="0"/>
-          <Group type="102" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
               <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
@@ -39,6 +39,7 @@
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
               <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -60,21 +61,29 @@
                   <EmptySpace min="-2" pref="377" max="-2" attributes="0"/>
                   <Component id="pictureBox1" min="-2" pref="100" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jTextField1" min="-2" pref="346" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
+              <Group type="102" attributes="0">
                   <EmptySpace pref="15" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="pictureBox2" min="-2" pref="100" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="pictureBox2" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="pictureBox1" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
-                          <Component id="pictureBox1" min="-2" pref="100" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -82,10 +91,10 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Container class="loginandsignup1.wews.PictureBox" name="pictureBox1">
+        <Container class="Rehistro.wews.PictureBox" name="pictureBox1">
           <Properties>
             <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loginandsignup1/icons/UM LOGO.jpg"/>
+              <Image iconType="3" name="/Rehistro/icons/UM LOGO.jpg"/>
             </Property>
           </Properties>
 
@@ -93,10 +102,10 @@
             <Property name="useNullLayout" type="boolean" value="true"/>
           </Layout>
         </Container>
-        <Container class="loginandsignup1.wews.PictureBox" name="pictureBox2">
+        <Container class="Rehistro.wews.PictureBox" name="pictureBox2">
           <Properties>
             <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loginandsignup1/icons/Image-Photoroom.png"/>
+              <Image iconType="3" name="/Rehistro/icons/Image-Photoroom.png"/>
             </Property>
           </Properties>
 
@@ -104,6 +113,26 @@
             <Property name="useNullLayout" type="boolean" value="true"/>
           </Layout>
         </Container>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="16" style="0"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Search">
+                  <Font PropertyName="font" name="Segoe UI" size="14" style="0"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+              <Insets value="[5, 6, 5, 6]"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+          </Events>
+        </Component>
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="jPanel2">
@@ -197,7 +226,7 @@
                   </Group>
                   <EmptySpace pref="268" max="32767" attributes="0"/>
               </Group>
-              <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
@@ -216,10 +245,10 @@
             </Property>
           </Properties>
         </Component>
-        <Container class="loginandsignup1.wews.PictureBox" name="pictureBox4">
+        <Container class="Rehistro.wews.PictureBox" name="pictureBox4">
           <Properties>
             <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loginandsignup1/icons/announcements1.png"/>
+              <Image iconType="3" name="/Rehistro/icons/announcements1.png"/>
             </Property>
           </Properties>
 
@@ -241,10 +270,10 @@
             </Property>
           </Properties>
         </Component>
-        <Container class="loginandsignup1.wews.PictureBox" name="pictureBox6">
+        <Container class="Rehistro.wews.PictureBox" name="pictureBox6">
           <Properties>
             <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loginandsignup1/icons/notiffinal.png"/>
+              <Image iconType="3" name="/Rehistro/icons/notiffinal.png"/>
             </Property>
           </Properties>
 
@@ -266,10 +295,10 @@
             </Property>
           </Properties>
         </Component>
-        <Container class="loginandsignup1.wews.PictureBox" name="pictureBox5">
+        <Container class="Rehistro.wews.PictureBox" name="pictureBox5">
           <Properties>
             <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loginandsignup1/icons/update-removebg-preview.png"/>
+              <Image iconType="3" name="/Rehistro/icons/update-removebg-preview.png"/>
             </Property>
           </Properties>
 
@@ -298,10 +327,10 @@
             </Component>
           </SubComponents>
         </Container>
-        <Container class="loginandsignup1.wews.PictureBox" name="pictureBox8">
+        <Container class="Rehistro.wews.PictureBox" name="pictureBox8">
           <Properties>
             <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loginandsignup1/icons/SLOTTTT.png"/>
+              <Image iconType="3" name="/Rehistro/icons/SLOTTTT.png"/>
             </Property>
           </Properties>
 
@@ -340,10 +369,10 @@
             </Property>
           </Properties>
         </Component>
-        <Container class="loginandsignup1.wews.PictureBox" name="pictureBox7">
+        <Container class="Rehistro.wews.PictureBox" name="pictureBox7">
           <Properties>
             <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/loginandsignup1/icons/pngtree-vector-logout-icon-png-image_4221908-removebg-preview.png"/>
+              <Image iconType="3" name="/Rehistro/icons/pngtree-vector-logout-icon-png-image_4221908-removebg-preview.png"/>
             </Property>
           </Properties>
 

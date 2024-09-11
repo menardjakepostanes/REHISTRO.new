@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package loginandsignup1;
+package Rehistro;
 
 import com.formdev.flatlaf.FlatLightLaf;
 
@@ -38,15 +38,15 @@ public class Login extends javax.swing.JFrame {
         RED = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        pictureBox1 = new loginandsignup1.wews.PictureBox();
         jLabel15 = new javax.swing.JLabel();
-        aNIMATION1 = new loginandsignup1.ANIMATION();
+        aNIMATION1 = new Rehistro.ANIMATION();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        password2 = new loginandsignup1.Password();
+        password2 = new Rehistro.Password();
         jLabel2 = new javax.swing.JLabel();
+        pictureBox2 = new PictureBox.PictureBox();
 
         jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\pelar\\OneDrive\\Documents\\NetBeansProjects\\Registro_transparent-.png")); // NOI18N
         jLabel6.setText("jLabel6");
@@ -77,7 +77,6 @@ public class Login extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(153, 0, 51));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(400, 688));
 
         RED.setBackground(new java.awt.Color(102, 0, 0));
         RED.setPreferredSize(new java.awt.Dimension(400, 500));
@@ -91,8 +90,6 @@ public class Login extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("BankGothic Lt BT", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(153, 153, 153));
         jLabel11.setText("Champions Are Made Here!");
-
-        pictureBox1.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/Image-Photoroom.png"))); // NOI18N
 
         jLabel15.setBackground(new java.awt.Color(255, 255, 255));
         jLabel15.setFont(new java.awt.Font("BankGothic Md BT", 0, 36)); // NOI18N
@@ -139,6 +136,8 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
+        pictureBox2.setImage(new javax.swing.ImageIcon(getClass().getResource("/loginandsignup1/icons/Image-Photoroom.png"))); // NOI18N
+
         javax.swing.GroupLayout REDLayout = new javax.swing.GroupLayout(RED);
         RED.setLayout(REDLayout);
         REDLayout.setHorizontalGroup(
@@ -153,47 +152,45 @@ public class Login extends javax.swing.JFrame {
                         .addGap(188, 188, 188)
                         .addComponent(jLabel10))
                     .addGroup(REDLayout.createSequentialGroup()
-                        .addGap(68, 68, 68)
-                        .addGroup(REDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(REDLayout.createSequentialGroup()
-                                .addGap(26, 26, 26)
-                                .addComponent(jLabel15))
-                            .addComponent(jLabel11)
-                            .addGroup(REDLayout.createSequentialGroup()
-                                .addGap(70, 70, 70)
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(REDLayout.createSequentialGroup()
-                                .addGap(41, 41, 41)
-                                .addComponent(jLabel4)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(REDLayout.createSequentialGroup()
-                                .addGap(72, 72, 72)
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(REDLayout.createSequentialGroup()
-                                .addGap(16, 16, 16)
-                                .addGroup(REDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(aNIMATION1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(password2, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addGap(109, 109, 109)
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(REDLayout.createSequentialGroup()
-                        .addGap(118, 118, 118)
-                        .addComponent(pictureBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(87, Short.MAX_VALUE))
+                        .addGap(140, 140, 140)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(REDLayout.createSequentialGroup()
+                        .addGap(102, 102, 102)
+                        .addComponent(jLabel15))
+                    .addGroup(REDLayout.createSequentialGroup()
+                        .addGap(84, 84, 84)
+                        .addGroup(REDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel11)
+                            .addGroup(REDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(aNIMATION1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(password2, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(REDLayout.createSequentialGroup()
+                        .addGap(121, 121, 121)
+                        .addComponent(pictureBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(REDLayout.createSequentialGroup()
+                        .addGap(146, 146, 146)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(71, Short.MAX_VALUE))
         );
         REDLayout.setVerticalGroup(
             REDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(REDLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
                 .addComponent(jLabel2)
-                .addGap(20, 20, 20)
-                .addComponent(pictureBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(8, 8, 8)
+                .addComponent(pictureBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel15)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(53, 53, 53)
+                .addGap(47, 47, 47)
                 .addComponent(aNIMATION1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(41, 41, 41)
                 .addComponent(password2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -261,7 +258,7 @@ public class Login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel RED;
-    private loginandsignup1.ANIMATION aNIMATION1;
+    private Rehistro.ANIMATION aNIMATION1;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -276,7 +273,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel2;
-    private loginandsignup1.Password password2;
-    private loginandsignup1.wews.PictureBox pictureBox1;
+    private Rehistro.Password password2;
+    private PictureBox.PictureBox pictureBox2;
     // End of variables declaration//GEN-END:variables
 }
